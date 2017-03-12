@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E572D7F1E75AE8A0080411E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E572D7E1E75AE8A0080411E /* AppDelegate.swift */; };
-		1E572D811E75AE8A0080411E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E572D801E75AE8A0080411E /* ViewController.swift */; };
+		1E572D811E75AE8A0080411E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E572D801E75AE8A0080411E /* SignInVC.swift */; };
 		1E572D841E75AE8A0080411E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D821E75AE8A0080411E /* Main.storyboard */; };
 		1E572D861E75AE8A0080411E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D851E75AE8A0080411E /* Assets.xcassets */; };
 		1E572D891E75AE8A0080411E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D871E75AE8A0080411E /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		1E572D7B1E75AE890080411E /* projectRocketa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectRocketa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E572D7E1E75AE8A0080411E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E572D801E75AE8A0080411E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E572D801E75AE8A0080411E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		1E572D831E75AE8A0080411E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E572D851E75AE8A0080411E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E572D881E75AE8A0080411E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,8 +63,10 @@
 		1E572D7D1E75AE8A0080411E /* projectRocketa */ = {
 			isa = PBXGroup;
 			children = (
+				1E931E8E1E75BDB200332D24 /* Controller */,
+				1E931E8D1E75BDA900332D24 /* View */,
+				1E931E8C1E75BDA200332D24 /* Model */,
 				1E572D7E1E75AE8A0080411E /* AppDelegate.swift */,
-				1E572D801E75AE8A0080411E /* ViewController.swift */,
 				1E572D821E75AE8A0080411E /* Main.storyboard */,
 				1E572D851E75AE8A0080411E /* Assets.xcassets */,
 				1E572D871E75AE8A0080411E /* LaunchScreen.storyboard */,
@@ -72,6 +74,28 @@
 				1E572D921E75B2760080411E /* GoogleService-Info.plist */,
 			);
 			path = projectRocketa;
+			sourceTree = "<group>";
+		};
+		1E931E8C1E75BDA200332D24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1E931E8D1E75BDA900332D24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1E931E8E1E75BDB200332D24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E572D801E75AE8A0080411E /* SignInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		2ED3FF1352DC9CD41DBD5125 /* Pods */ = {
@@ -215,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E572D811E75AE8A0080411E /* ViewController.swift in Sources */,
+				1E572D811E75AE8A0080411E /* SignInVC.swift in Sources */,
 				1E572D7F1E75AE8A0080411E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
