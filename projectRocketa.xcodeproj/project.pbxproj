@@ -12,6 +12,8 @@
 		1E572D841E75AE8A0080411E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D821E75AE8A0080411E /* Main.storyboard */; };
 		1E572D861E75AE8A0080411E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D851E75AE8A0080411E /* Assets.xcassets */; };
 		1E572D891E75AE8A0080411E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D871E75AE8A0080411E /* LaunchScreen.storyboard */; };
+		1E572D931E75B2760080411E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D921E75B2760080411E /* GoogleService-Info.plist */; };
+		96874593F9223E83566E2AB5 /* Pods_projectRocketa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1FCC51B7A949C9E0F3FE64 /* Pods_projectRocketa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		1E572D851E75AE8A0080411E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E572D881E75AE8A0080411E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E572D8A1E75AE8A0080411E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E572D921E75B2760080411E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5A1FCC51B7A949C9E0F3FE64 /* Pods_projectRocketa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projectRocketa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFF006830F89324629E1032 /* Pods-projectRocketa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectRocketa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-projectRocketa/Pods-projectRocketa.debug.xcconfig"; sourceTree = "<group>"; };
+		DCB5DBB1DF858EFAB61AFAB1 /* Pods-projectRocketa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectRocketa.release.xcconfig"; path = "Pods/Target Support Files/Pods-projectRocketa/Pods-projectRocketa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96874593F9223E83566E2AB5 /* Pods_projectRocketa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				1E572D7D1E75AE8A0080411E /* projectRocketa */,
 				1E572D7C1E75AE8A0080411E /* Products */,
+				2ED3FF1352DC9CD41DBD5125 /* Pods */,
+				3D9F469F93B89A8CB05B03B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				1E572D851E75AE8A0080411E /* Assets.xcassets */,
 				1E572D871E75AE8A0080411E /* LaunchScreen.storyboard */,
 				1E572D8A1E75AE8A0080411E /* Info.plist */,
+				1E572D921E75B2760080411E /* GoogleService-Info.plist */,
 			);
 			path = projectRocketa;
+			sourceTree = "<group>";
+		};
+		2ED3FF1352DC9CD41DBD5125 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF006830F89324629E1032 /* Pods-projectRocketa.debug.xcconfig */,
+				DCB5DBB1DF858EFAB61AFAB1 /* Pods-projectRocketa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D9F469F93B89A8CB05B03B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A1FCC51B7A949C9E0F3FE64 /* Pods_projectRocketa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E572D8D1E75AE8A0080411E /* Build configuration list for PBXNativeTarget "projectRocketa" */;
 			buildPhases = (
+				651D4FC74842C6AAB0CD6412 /* [CP] Check Pods Manifest.lock */,
 				1E572D771E75AE890080411E /* Sources */,
 				1E572D781E75AE890080411E /* Frameworks */,
 				1E572D791E75AE890080411E /* Resources */,
+				B4E309A7763A1229BB9074C9 /* [CP] Embed Pods Frameworks */,
+				563D75F44500E1781A4E1099 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,10 +156,59 @@
 				1E572D891E75AE8A0080411E /* LaunchScreen.storyboard in Resources */,
 				1E572D861E75AE8A0080411E /* Assets.xcassets in Resources */,
 				1E572D841E75AE8A0080411E /* Main.storyboard in Resources */,
+				1E572D931E75B2760080411E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		563D75F44500E1781A4E1099 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-projectRocketa/Pods-projectRocketa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651D4FC74842C6AAB0CD6412 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E309A7763A1229BB9074C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-projectRocketa/Pods-projectRocketa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E572D771E75AE890080411E /* Sources */ = {
@@ -256,6 +335,7 @@
 		};
 		1E572D8E1E75AE8A0080411E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFF006830F89324629E1032 /* Pods-projectRocketa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = projectRocketa/Info.plist;
@@ -268,6 +348,7 @@
 		};
 		1E572D8F1E75AE8A0080411E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB5DBB1DF858EFAB61AFAB1 /* Pods-projectRocketa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = projectRocketa/Info.plist;
@@ -297,6 +378,7 @@
 				1E572D8F1E75AE8A0080411E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
