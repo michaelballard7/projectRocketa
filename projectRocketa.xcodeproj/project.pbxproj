@@ -13,6 +13,7 @@
 		1E572D861E75AE8A0080411E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D851E75AE8A0080411E /* Assets.xcassets */; };
 		1E572D891E75AE8A0080411E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D871E75AE8A0080411E /* LaunchScreen.storyboard */; };
 		1E572D931E75B2760080411E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D921E75B2760080411E /* GoogleService-Info.plist */; };
+		1E931E921E786D2E00332D24 /* customClassGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E931E911E786D2E00332D24 /* customClassGen.swift */; };
 		96874593F9223E83566E2AB5 /* Pods_projectRocketa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1FCC51B7A949C9E0F3FE64 /* Pods_projectRocketa.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		1E572D881E75AE8A0080411E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E572D8A1E75AE8A0080411E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E572D921E75B2760080411E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E931E911E786D2E00332D24 /* customClassGen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customClassGen.swift; sourceTree = "<group>"; };
 		5A1FCC51B7A949C9E0F3FE64 /* Pods_projectRocketa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projectRocketa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFF006830F89324629E1032 /* Pods-projectRocketa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectRocketa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-projectRocketa/Pods-projectRocketa.debug.xcconfig"; sourceTree = "<group>"; };
 		DCB5DBB1DF858EFAB61AFAB1 /* Pods-projectRocketa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectRocketa.release.xcconfig"; path = "Pods/Target Support Files/Pods-projectRocketa/Pods-projectRocketa.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		1E931E8D1E75BDA900332D24 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1E931E911E786D2E00332D24 /* customClassGen.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				1E572D811E75AE8A0080411E /* SignInVC.swift in Sources */,
 				1E572D7F1E75AE8A0080411E /* AppDelegate.swift in Sources */,
+				1E931E921E786D2E00332D24 /* customClassGen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

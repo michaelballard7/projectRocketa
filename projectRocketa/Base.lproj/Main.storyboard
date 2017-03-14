@@ -81,6 +81,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UoN-Fc-mkP">
                                 <rect key="frame" x="164" y="492" width="47" height="30"/>
                                 <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="signInBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r1Y-Co-w98"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcW-4P-aAg">
                                 <rect key="frame" x="76" y="224" width="222" height="41"/>
@@ -122,6 +125,10 @@
                             <constraint firstItem="SPW-Zb-esp" firstAttribute="top" secondItem="AiL-2K-bgd" secondAttribute="bottom" constant="442" id="ydH-ro-dut"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="vDc-3i-pdi" id="Prx-3T-X6Q"/>
+                        <outlet property="passwordField" destination="Say-FS-wzg" id="h8G-t4-dYA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
