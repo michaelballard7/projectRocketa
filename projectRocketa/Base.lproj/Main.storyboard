@@ -83,7 +83,7 @@
                                 <state key="normal" title="Sign In"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcW-4P-aAg">
-                                <rect key="frame" x="76" y="235" width="222" height="41"/>
+                                <rect key="frame" x="76" y="224" width="222" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="ho0-Xt-5KQ"/>
                                     <constraint firstAttribute="width" constant="222" id="xxa-jH-eRU"/>
@@ -91,11 +91,14 @@
                                 <state key="normal" title="FaceBook Login">
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fbButtonEngaged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s7T-kt-1NX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="DcW-4P-aAg" firstAttribute="top" secondItem="AiL-2K-bgd" secondAttribute="bottom" constant="85" id="0or-TY-fMz"/>
+                            <constraint firstItem="DcW-4P-aAg" firstAttribute="top" secondItem="AiL-2K-bgd" secondAttribute="bottom" constant="74" id="0or-TY-fMz"/>
                             <constraint firstItem="Say-FS-wzg" firstAttribute="top" secondItem="vDc-3i-pdi" secondAttribute="bottom" constant="25" id="9IH-wi-E2L"/>
                             <constraint firstItem="SPW-Zb-esp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="A7q-ZH-db4"/>
                             <constraint firstItem="AiL-2K-bgd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BWB-VI-2NI"/>
@@ -114,7 +117,7 @@
                             <constraint firstItem="AiL-2K-bgd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eyC-nY-Pcp"/>
                             <constraint firstAttribute="trailing" secondItem="SPW-Zb-esp" secondAttribute="trailing" id="gL8-Cm-4Ta"/>
                             <constraint firstItem="AiL-2K-bgd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jUu-tR-g6M"/>
-                            <constraint firstItem="vDc-3i-pdi" firstAttribute="top" secondItem="DcW-4P-aAg" secondAttribute="bottom" constant="53" id="kyM-PH-qhB"/>
+                            <constraint firstItem="vDc-3i-pdi" firstAttribute="top" secondItem="DcW-4P-aAg" secondAttribute="bottom" constant="64" id="kyM-PH-qhB"/>
                             <constraint firstItem="AiL-2K-bgd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sFj-Hl-Rie"/>
                             <constraint firstItem="SPW-Zb-esp" firstAttribute="top" secondItem="AiL-2K-bgd" secondAttribute="bottom" constant="442" id="ydH-ro-dut"/>
                         </constraints>
