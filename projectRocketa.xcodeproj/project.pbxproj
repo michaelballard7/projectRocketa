@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3917681E78CA2C00B09237 /* mainFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3917671E78CA2C00B09237 /* mainFeedVC.swift */; };
 		1E572D7F1E75AE8A0080411E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E572D7E1E75AE8A0080411E /* AppDelegate.swift */; };
 		1E572D811E75AE8A0080411E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E572D801E75AE8A0080411E /* SignInVC.swift */; };
 		1E572D841E75AE8A0080411E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E572D821E75AE8A0080411E /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E3917671E78CA2C00B09237 /* mainFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainFeedVC.swift; sourceTree = "<group>"; };
 		1E572D7B1E75AE890080411E /* projectRocketa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectRocketa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E572D7E1E75AE8A0080411E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E572D801E75AE8A0080411E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				1E572D801E75AE8A0080411E /* SignInVC.swift */,
+				1E3917671E78CA2C00B09237 /* mainFeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E572D811E75AE8A0080411E /* SignInVC.swift in Sources */,
+				1E3917681E78CA2C00B09237 /* mainFeedVC.swift in Sources */,
 				1E572D7F1E75AE8A0080411E /* AppDelegate.swift in Sources */,
 				1E931E921E786D2E00332D24 /* customClassGen.swift in Sources */,
 			);

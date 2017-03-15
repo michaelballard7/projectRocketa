@@ -13,6 +13,7 @@ target 'projectRocketa' do
   pod ‘Firebase/Database’
   pod ‘Firebase/Storage’
   pod 'FBSDKLoginKit'
+  pod 'SwiftKeychainWrapper', '~> 3.0'
 
 end
 

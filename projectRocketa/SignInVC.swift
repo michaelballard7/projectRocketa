@@ -10,6 +10,7 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
+import SwiftKeychainWrapper
 
 
 class SignInVC: UIViewController {
@@ -20,11 +21,14 @@ class SignInVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        //Before the user sees sign in, app will check for user credentials if exist loads automatically
+        
+        
+        
+        
+     
+        
     }
     
     @IBAction func fbButtonEngaged(_ sender: Any) {
@@ -40,6 +44,7 @@ class SignInVC: UIViewController {
                 print("Michael, User successfully authenticated with Facebook")
                 let credential = FIRFacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
                 self.firebaseAuth(credential)
+            
             }
         }
     }
@@ -50,7 +55,17 @@ class SignInVC: UIViewController {
                 print("Michael: Unable to Authenticate with Firebase - \(error)")
             } else {
                 print("Michael: Successfully Authenticated with Firebase")
+            
+               // !!!!!!*******  if let user = user {
+                
+                    //Figure out how to implements so that a user does not have to relogin every time....
+                    //KeychainWrapper.setString(user.uid, forKey: "uid")
+                
+                
+                    // Bug log: KeychainWrapper method setString could not be found go back debug an complete auto save login feature   
+              //  } *********!!!!!!!
             }
+         	
             
         })
     }
@@ -75,6 +90,7 @@ class SignInVC: UIViewController {
                 }
             })
             
+             self.performSegue(withIdentifier: "loadMainFeed", sender: nil)
         }
             
         
